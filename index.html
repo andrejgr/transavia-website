@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Transavia 99 verhalen</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+
+<body>
+
+    <header id="header">
+        <nav>
+            <section>
+                <a href="index.html">
+                    <img src="img/logo.svg" alt="">
+                </a>
+            </section>
+            <section>
+                <a href="index.html">
+                    <img src="img/logodesktop3.svg" alt="">
+                </a>
+            </section>
+            <h1>
+                <i>99</i> Reis<br>verhalen
+            </h1>
+            <ul>
+                <li>
+                    <a href="#">
+                        <img src="img/favoriet.svg" alt="">
+                    </a>
+                </li>
+                <li>
+                    <a href="login.html">
+                        <img src="img/profiel.svg" alt="">
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <aside>
+        <form action="">
+            <legend>Welk verhaal wil je lezen?</legend>
+            <label for="genre">Genre</label>
+            <select id="genre" name="genre">
+                <option selected disabled>Kies een Genre</option>
+                <option value="Thriller">Thriller</option>
+                <option value="Comedy">Comedy</option>
+                <option value="Avontuur">Avontuur</option>
+                <option value="Romantiek">Romantiek</option>
+            </select>
+            <label for="zoekterm">Zoeken op naam</label>
+            <input type="text" id="zoekterm" placeholder="'Paranoia', 'Angst', 'Zombie' etc.">
+            <button>Zoeken</button>
+            <button type="button" id="randomknop" onclick="bevestig()" value="reset">Verras me</button>
+        </form>
+
+    </aside>
+
+
+    <main>
+
+        <h2 id='resultaat'></h2>
+
+        <article>
+            <header>
+                <img src="img/alzheimer.jpg" id='image'>
+            </header>
+
+            <h3 id='titels'>Alzheimer</h3>
+
+            <p id='teksten'>Ik stap uit, euh… Hoe heet het? Zo’n vervoersdinges op wielen. Van de gemeente. Wit met blauw. Kom. Lijn 12. Of was het 21? Ik weet het niet. Ik stap uit en loop achter een wagentje aan. Van wie is dat wagentje? Ik weet het niet. Ik kijk in het wagentje. Er ligt een ventje.</p>
+        </article>
+
+        <h2> Spannende verhalen: <i>(16)</i></h2>
+        <article>
+            <header>
+                <img src="img/paranoia.png" alt="">
+                <h3>Paranoia</h3>
+                <button><img id="like" src="img/favoriet.svg"></button>
+            </header>
+            <p>Ik sluip de bus uit. Kop in de kraag. Ik maak me klein en duw m’n zoon vooruit. Hij slaapt. Eindelijk. Zijn gejengel trok veel te veel aandacht. De mensen lopen over het stationsplein. Het voelt alsof er een grote, knipperende pijl boven m’n hoofd hangt: HIER LOOPT HIJ!..</p>
+            <a href="#">Lees verder</a>
+        </article>
+
+        <article>
+            <header>
+                <img src="img/lepra2.png" alt="">
+                <h3>Lepra</h3>
+                <button><img id="like" src="img/favoriet.svg"></button>
+            </header>
+            <p>Op Centraal Station stap ik af van de kar die lijken ophaalt. Ik had een lift gekregen. Mijn zoon ligt in zijn wagentje te slapen. Arm ventje. Gelukkig weet hij niet dat er een lepra-epidemie heerst in Amsterdam. Zijn wagentje is..</p>
+            <a href="#">Lees verder</a>
+        </article>
+
+        <article>
+            <header>
+                <img src="img/essentie.png" alt="">
+                <h3>Essentie</h3>
+                <button><img id="like" src="img/favoriet.svg"></button>
+            </header>
+            <p>Mijn zoektocht naar Stijloefeningen van Raymond Queneau brengt mij bij de bibliotheek. Een Franse vrouw (zwart krullend haar) vraagt waar het postkantoor is. Ik zeg dat ze naar de Raadhuisstraat moet. Ze rent achter een auto aan. Je vindt nooit wat je zoekt.</p>
+            <a href="#">Lees verder</a>
+        </article>
+
+        <article>
+            <header>
+                <img src="img/lepra.png" alt="">
+                <h3>Lepra 2.0</h3>
+                <button><img id="like" src="img/favoriet.svg"></button>
+            </header>
+            <p>Ik sluip de bus uit. Kop in de kraag. Ik maak me klein en duw m’n zoon vooruit. Hij slaapt. Eindelijk. Zijn gejengel trok veel te veel aandacht. De mensen lopen over het stationsplein. Het voelt alsof er een grote, knipperende pijl boven m’n hoofd hangt: HIER LOOPT HIJ!..</p>
+            <a href="#">Lees verder</a>
+        </article>
+
+        <article>
+            <header>
+                <img src="img/verliefd.png" alt="">
+                <h3>Verliefd</h3>
+                <button><img id="like" src="img/favoriet.svg"></button>
+            </header>
+            <p>Licht van mijn leven. Ik stapte vandaag bus 21 uit. Het was op het midden van de dag. En wat een heerlijke dag! Het was twaalf uur, onze fantastische zoon sliep net. De miezelregen aaide de haartjes op mijn hand en ik dacht aan jou. De mensen dansten en..</p>
+            <a href="#">Lees verder</a>
+        </article>
+
+        <article>
+            <header>
+                <img src="img/lepra3.png" alt="">
+                <h3>Lepra 3.0</h3>
+                <button><img id="like" src="img/favoriet.svg"></button>
+            </header>
+            <p>Ik sluip de bus uit. Kop in de kraag. Ik maak me klein en duw m’n zoon vooruit. Hij slaapt. Eindelijk. Zijn gejengel trok veel te veel aandacht. De mensen lopen over het stationsplein. Het voelt alsof er een grote, knipperende pijl boven m’n hoofd hangt: HIER LOOPT HIJ!..</p>
+            <a href="#">Lees verder</a>
+        </article>
+
+    </main>
+
+    <audio id="knopAudio">
+        <source src="audio/knop.mp3" type="audio/mpeg">
+    </audio>
+
+
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
