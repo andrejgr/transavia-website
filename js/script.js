@@ -19,13 +19,23 @@ function klik(){
        } else { //dan is het lampje uit
        
         likeImg.src = 'img/favorietkleur.svg';
-        favoImg.src = 'img/favorietgetal.svg';
+        favoImg.src = 'img/favorietkleur.svg';
            likeAan = true;
        
        }
 }
 
 likeImg.addEventListener('click',klik,false);
+
+var getal = ('1');
+
+
+function liken() {
+    
+    /* Uitkomst voor het element 'resultaat' die uit de HTML komt */
+    document.getElementById('aantallikes').innerHTML = getal;
+}
+document.getElementById('like').addEventListener("click", liken);
 
 
 
